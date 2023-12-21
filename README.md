@@ -18,7 +18,7 @@ This project uses an e-commerce sales data of a particular online retail store s
 * Country: Country name. Nominal. The name of the country where a customer resides.
 ## Methodology
 * Data profiling and cleaning:
-  Statistical properties of data were generated to observe characteristics of the eintire dataset and each feature. Missing values and errors were observed and handled accordingly.
+  Statistical properties of data were generated to observe characteristics of the entire dataset and each feature. Missing values and errors were observed and handled accordingly.
 * Exploratory data analysis:
   Various data analysis tasks were performed to unveil various significant patterns and statistical characteristics of the dataset. These include distributions of number of orders and number of active customers per month, and top customers by purchses and country.
 * Customer retention rate cohort analysis:
@@ -26,7 +26,7 @@ This project uses an e-commerce sales data of a particular online retail store s
 * RFM analysis:
   Here, recency, frequency and monetary scores of each customer were computed from which RFM segments were generated using a binning approach. Scores of the segments were then produced to classify customers into three tiers namely low, mid and high tier customer. The analysis of the distribution of the customer tiers is provided.
 * Clustering analysis:
-  A machine learning based clustering technique was applied on the recency, frequency and monetary scores to develop the most appropiate clusters of customers. First, using an elbow method with KMeans algorithm, the best number of clusters was determined. Then, five different clustering algorithms were used to evaluate the dataset from which the one that produced the highest silhouette score was identified as the best performing algorithm for the task. The algorithm was used to develop three customer clusters. Two and three dimensional visualizations of the RFM as well as the analysis of the plots were provided.
+  A machine learning based clustering technique was applied on the recency, frequency and monetary scores to develop the most appropiate clusters of customers. First, skewness of the dataset was observed and handled in attempt to make data distribution normal. Using an elbow method with KMeans algorithm, the best number of clusters was determined. Then, five different clustering algorithms were used to evaluate the dataset from which the one that produced the highest silhouette score was identified as the best performing algorithm for the task. The algorithm was used to develop three customer clusters. Two and three dimensional visualizations of the RFM as well as the analysis of the plots were provided.
 ## Results
 
 
