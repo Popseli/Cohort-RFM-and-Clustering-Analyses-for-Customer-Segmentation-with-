@@ -7,7 +7,15 @@ RFM stands for recency, frequency, and monetary. This analysis methodology invol
 #### Clustering Analysis
 Cluster analysis is a type of unsupervised learning, which means that it does not require predefined labels or categories for the data. Instead, it uses mathematical algorithms to find natural clusters or groups of data points that are similar to each other and different from other groups. The output of cluster analysis is a set of clusters, each with a centroid (the average or representative point of the cluster) and a boundary (the range or distance that defines the cluster). Cluster analysis can help you segment your customers based on their characteristics, preferences, behaviors, or needs; thus, allowing you to better understand your customer base and tailor your marketing efforts accordingly. For example, you can use cluster analysis to identify your most valuable customers and target them with personalized offers or rewards. Additionally, it can help you discover new or niche segments that have unmet needs or untapped potential so that you can create new products, services, or campaigns to satisfy them. Furthermore, it can be used to test different marketing strategies or messages for different segments and measure their effectiveness and response.
 ## Data
-This project uses an e-commerce sales data of a particular online retail store selling items to customers in various countries. 541,909 transactions recorded in this dataset are those made between 1 December 2010 and 9 December 2011. 
+This project uses an e-commerce sales data of a particular online retail store selling items to customers in various countries. 541,909 transactions recorded in this dataset are those made between 1 December 2010 and 9 December 2011. The data has the following attributes:
+* InvoiceNo: Invoice number. Nominal. A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter 'c', it indicates a cancellation.
+* StockCode: Product (item) code. Nominal. A 5-digit integral number uniquely assigned to each distinct product.
+* Description: Product (item) name. Nominal
+* Quantity: The quantities of each product (item) per transaction. Numeric.
+* InvoiceDate: Invice date and time. Numeric. The day and time when a transaction was generated.
+* UnitPrice: Unit price. Numeric. Product price per unit.Numeric.
+* CustomerID: Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
+* Country: Country name. Nominal. The name of the country where a customer resides.
 ## Methodology
 
 
