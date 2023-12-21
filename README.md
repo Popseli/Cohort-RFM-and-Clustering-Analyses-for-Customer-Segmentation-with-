@@ -1,2 +1,2 @@
-# Cohort-RFM-and-Clustering-Analyses-for-Retail Customer-Segmentation
-This project implements cohort, RFM and Clustering based analyses to categorize various customer classes of a retail business to help the business in developing effective marketing strategies based on customer purchasing behaviours.
+# Introduction
+Customer segmentation is the practice of grouping customers based on common characteristics. These customer segments are beneficial in marketing campaigns, in identifying potentially profitable customers, and in developing customer loyalty. A company might segment customers according to a wide range of factors, including: demographics (age, gender, location etc), behaviour (previous orders, responses to messaging), psychographics (values, interests, lifestyles) etc.
