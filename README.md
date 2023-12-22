@@ -27,7 +27,9 @@ This project uses an e-commerce sales data of a particular online retail store s
   Here, recency, frequency and monetary scores of each customer were computed from which RFM segments were generated using a binning approach. Scores of the segments were then computed to classify customers into three clusters namely low, mid and high tier customers. The analysis of the distribution of the customer clusters is provided.
 * Clustering analysis:
   A machine learning based clustering technique was applied on the recency, frequency and monetary scores to develop clusters of customers. First, skewness of the dataset was observed and handled in attempt to make the data distribution normal. Using an elbow method with KMeans algorithm, the best number of clusters was determined. Then, five different clustering algorithms were used to evaluate the dataset from which the one that produced the highest silhouette score was identified as the best performing algorithm for the task. The algorithm was then used to develop three customer clusters. Two and three dimensional visualizations of the clusters and the analysis were provided.
+  
 ## Results
+
 #### A. Cohort Retention Rate Analysis
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Customer_Retention_Rate%208.bmp)
 
@@ -47,7 +49,9 @@ Key observations from the RFM analysis:
 Below show the number of clusters formed from RFM scores of RFM segments and the distribution of customers in each cluster.
 
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_Customers_in_RFM_Clusters%202.bmp)
+
 #### C. Clustering Analysis
+
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/KMeans_Clustering_of_RFM_Scores%205.jpg)
 
 Key observations from the clustering analysis:
