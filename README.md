@@ -43,7 +43,9 @@ Key observations:
 2) We also see a significant representation of high-spending new customers. This group consists of those customers in 4-1-4 and 4-1-3. These are customers who transacted only once, but very recently and they spent a lot. In this case we have 50 customers.A marketing strategy with this group is to make them feel valued and appreciated and to give them terrific incentives to continue interacting with the brand. 
 3) A small number of lowest-spending active loyal customers are observed. This group consists of those customers in segments 4-4-1 and 4-4-2 (they transacted recently and do so often, but spend the least). Here, we have only 3 customers. Marketers should create campaigns for this group that make them feel valued and incentivize them to increase their spend levels. As loyal customers, it often also pays to reward them with special offers if they spread the word about the brand to their friends, e.g., via social networks. 
 4) We observe one of the largest classes of customers, churned best customers. This segment consists of those customers in groups 1-4-4, 1-4-3, 1-3-4 and 1-3-3 (they transacted frequently and spent a lot, but it’s been a long time since they have transacted). In this case we have 778 customers. While it’s often challenging to re-engage churned customers, the high value of these customers makes it worthwhile trying. Like with the Best Customers group, it’s important to communicate with them on the basis of their specific preferences, as known from earlier transaction data.
-   
+
+Below show the number of clusters formed from RFM scores of RFM segments and the distribution of customers in each cluster.
+
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_Customers_in_RFM_Clusters%202.bmp)
 
 
