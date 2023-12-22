@@ -29,16 +29,16 @@ This project uses an e-commerce sales data of a particular online retail store s
   A machine learning based clustering technique was applied on the recency, frequency and monetary scores to develop the most appropiate clusters of customers. First, skewness of the dataset was observed and handled in attempt to make data distribution normal. Using an elbow method with KMeans algorithm, the best number of clusters was determined. Then, five different clustering algorithms were used to evaluate the dataset from which the one that produced the highest silhouette score was identified as the best performing algorithm for the task. The algorithm was used to develop three customer clusters. Two and three dimensional visualizations of the RFM as well as the analysis of the plots were provided.
 ## Results
 
-![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Customer_Retention_Rate%204.jpg)
+![]()
 
 
-![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_RFM_Segments%202.jpg)
+![]()
 
 
-![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_Customers_in_Clusters%204.jpg)
+![]()
 
 
-![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/KMeans_Clustering_of_RFM_Scores%204.jpg)
+![]()
 
 
 
