@@ -34,7 +34,7 @@ Several observations can be withdrawn from the heatmap of cohort customer retent
 2. The retention rate has drastically dropped in the month of Feb, Mar and Nov of 2011, dropping approximately by 80%.
 3. Generally, in each month, the number of customers keep coming back to purchase more after a period of time slightly increases, indicating their loyalty or due to improvement of products. However, the behaviour suddenly drops after varying period for each month. For example, customer retention for customers acquired in Jan 2011 was dropped by 10% after 12 months.
    
-![]()
+![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_Customers_in_RFM_Clusters%202.bmp)
 
 
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_RFM_Segments.png)
