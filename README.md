@@ -45,6 +45,7 @@ Key observations from the RFM analysis:
 4. We observe one of the largest classes of customers, churned best customers. This segment consists of those customers in groups 1-4-4, 1-4-3, 1-3-4 and 1-3-3 (they transacted frequently and spent a lot, but it’s been a long time since they have transacted). In this case we have 778 customers. While it’s often challenging to re-engage churned customers, the high value of these customers makes it worthwhile trying. Like with the Best Customers group, it’s important to communicate with them on the basis of their specific preferences, as known from earlier transaction data.
 
 Below show the number of clusters formed from RFM scores of RFM segments and the distribution of customers in each cluster.
+
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_Customers_in_RFM_Clusters%202.bmp)
 #### C. Clustering Analysis
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/KMeans_Clustering_of_RFM_Scores%205.jpg)
