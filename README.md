@@ -28,7 +28,7 @@ This project uses an e-commerce sales data of a particular online retail store s
 * Clustering analysis:
   A machine learning based clustering technique was applied on the recency, frequency and monetary scores to develop clusters of customers. First, skewness of the dataset was observed and handled in attempt to make the data distribution normal. Using an elbow method with KMeans algorithm, the best number of clusters was determined. Then, five different clustering algorithms were used to evaluate the dataset from which the one that produced the highest silhouette score was identified as the best performing algorithm for the task. The algorithm was then used to develop three customer clusters. Two and three dimensional visualizations of the clusters and the analysis were provided.
 ## Results
-![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Customer_Retention_Rate%204.jpg)
+![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Customer_Retention_Rate%207.jpg)
 Several observations can be withdrawn from the heatmap of cohort customer retention rate:
 1. The first month (Dec 2010) has exceptionally high recurring customers, up to 50% of customers acquired in this month are still active 12 month later after their acquisition.
 2. The retention rate has drastically dropped in the month of Feb, Mar and Nov of 2011, dropping approximately by 80%.
