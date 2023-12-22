@@ -18,19 +18,14 @@ This project uses an e-commerce sales data of a particular online retail store s
 * Country [Nominal]: Country name. The name of the country where a customer resides.
 ## Methodology
 * Data profiling and cleaning:
-  
   Statistical properties of data were generated to observe characteristics of the entire dataset and each feature. Missing values and errors were observed and handled accordingly.
 * Exploratory data analysis:
-  
   Various data analysis tasks were performed to unveil various significant patterns and statistical characteristics of the dataset. These include distributions of number of orders and number of active customers per month, and top customers by purchses and country.
 * Customer retention rate cohort analysis:
-  
   Three metrics (cohort month, cohort index and customer counts for each cohort month and index) were computed. A pivot matrix of the metrics was produced and visualized using heatmap, with customer counts presented as fraction of the number of customers for index 1 and for each month (retention matrix). The interpretation of the retention heatmap is given. We also performed revenues cohort analysis to map with the retention analysis to understand any correlations between them.
 * RFM analysis:
-  
   Here, recency, frequency and monetary scores of each customer were computed from which RFM segments were generated using a binning approach. Scores of the segments were then computed to classify customers into three clusters namely low, mid and high tier customers. The analysis of the distribution of the customer clusters is provided.
 * Clustering analysis:
-  
   A machine learning based clustering technique was applied on the recency, frequency and monetary scores to develop clusters of customers. First, skewness of the dataset was observed and handled in attempt to make the data distribution normal. Using an elbow method with KMeans algorithm, the best number of clusters was determined. Then, five different clustering algorithms were used to evaluate the dataset from which the one that produced the highest silhouette score was identified as the best performing algorithm for the task. The algorithm was then used to develop three customer clusters. Two and three dimensional visualizations of the clusters and the analysis were provided.
 ## Results
 
