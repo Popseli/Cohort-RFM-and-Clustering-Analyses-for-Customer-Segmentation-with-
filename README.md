@@ -48,7 +48,6 @@ Below show the number of clusters formed from RFM scores of RFM segments and the
 
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_Customers_in_RFM_Clusters%202.bmp)
 
-
 #### C. Clustering Analysis
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/KMeans_Clustering_of_RFM_Scores%205.jpg)
 
