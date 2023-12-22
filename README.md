@@ -30,6 +30,7 @@ This project uses an e-commerce sales data of a particular online retail store s
 ## Results
 #### A. Cohort Retention Rate Analysis
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Customer_Retention_Rate%208.bmp)
+
 Several observations can be withdrawn from the heatmap of cohort customer retention rate:
 1. The first month (Dec 2010) has exceptionally high recurring customers, up to 50% of customers acquired in this month are still active 12 month later after their acquisition.
 2. The retention rate has drastically dropped in the month of Feb, Mar and Nov of 2011, dropping approximately by 80%.
