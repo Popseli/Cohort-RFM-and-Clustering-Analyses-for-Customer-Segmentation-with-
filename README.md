@@ -31,18 +31,18 @@ This project uses an e-commerce sales data of a particular online retail store s
 #### A. Cohort Retention Rate Analysis
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Customer_Retention_Rate%208.bmp)
 
-Several observations can be drawn from the heatmap of cohort customer retention rate:
+Key observations drawn from the heatmap of cohort customer retention rate:
 1. The first month (Dec 2010) has exceptionally high recurring customers, up to 50% of customers acquired in this month are still active 12 month later after their acquisition.
 2. The retention rate has drastically dropped in the month of Feb, Mar and Nov of 2011, dropping approximately by 80%.
 3. Generally, in each month, the number of customers keep coming back to purchase more after a period of time slightly increases, indicating their loyalty or due to improvement of products. However, the behaviour suddenly drops after varying period for each month. For example, customer retention for customers acquired in Jan 2011 was dropped by 10% after 12 months.
 #### B. RFM Analysis
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_RFM_Segments.png)
 
-Key observations:
-1) We have all types of classes of customers ranging from the best customers to the churned customers. The best customers, who are transacted recently, do so often and spend more than other customers (here classified as 4-4-4) represents a small percentage of the entire customers set (there are only 10 customers). To retain these customers, marketing communications with this group should make them feel valued and appreciated. Keeping them happy should be a top priority.
-2) We also see a significant representation of high-spending new customers. This group consists of those customers in 4-1-4 and 4-1-3. These are customers who transacted only once, but very recently and they spent a lot. In this case we have 50 customers.A marketing strategy with this group is to make them feel valued and appreciated and to give them terrific incentives to continue interacting with the brand. 
-3) A small number of lowest-spending active loyal customers are observed. This group consists of those customers in segments 4-4-1 and 4-4-2 (they transacted recently and do so often, but spend the least). Here, we have only 3 customers. Marketers should create campaigns for this group that make them feel valued and incentivize them to increase their spend levels. As loyal customers, it often also pays to reward them with special offers if they spread the word about the brand to their friends, e.g., via social networks. 
-4) We observe one of the largest classes of customers, churned best customers. This segment consists of those customers in groups 1-4-4, 1-4-3, 1-3-4 and 1-3-3 (they transacted frequently and spent a lot, but it’s been a long time since they have transacted). In this case we have 778 customers. While it’s often challenging to re-engage churned customers, the high value of these customers makes it worthwhile trying. Like with the Best Customers group, it’s important to communicate with them on the basis of their specific preferences, as known from earlier transaction data.
+Key observations from the RFM analysis:
+1. We have all types of classes of customers ranging from the best customers to the churned customers. The best customers, who are transacted recently, do so often and spend more than other customers (here classified as 4-4-4) represents a small percentage of the entire customers set (there are only 10 customers). To retain these customers, marketing communications with this group should make them feel valued and appreciated. Keeping them happy should be a top priority.
+2. We also see a significant representation of high-spending new customers. This group consists of those customers in 4-1-4 and 4-1-3. These are customers who transacted only once, but very recently and they spent a lot. In this case we have 50 customers.A marketing strategy with this group is to make them feel valued and appreciated and to give them terrific incentives to continue interacting with the brand. 
+3. A small number of lowest-spending active loyal customers are observed. This group consists of those customers in segments 4-4-1 and 4-4-2 (they transacted recently and do so often, but spend the least). Here, we have only 3 customers. Marketers should create campaigns for this group that make them feel valued and incentivize them to increase their spend levels. As loyal customers, it often also pays to reward them with special offers if they spread the word about the brand to their friends, e.g., via social networks. 
+4. We observe one of the largest classes of customers, churned best customers. This segment consists of those customers in groups 1-4-4, 1-4-3, 1-3-4 and 1-3-3 (they transacted frequently and spent a lot, but it’s been a long time since they have transacted). In this case we have 778 customers. While it’s often challenging to re-engage churned customers, the high value of these customers makes it worthwhile trying. Like with the Best Customers group, it’s important to communicate with them on the basis of their specific preferences, as known from earlier transaction data.
 
 Below show the number of clusters formed from RFM scores of RFM segments and the distribution of customers in each cluster.
 
@@ -52,5 +52,10 @@ Below show the number of clusters formed from RFM scores of RFM segments and the
 #### C. Clustering Analysis
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/KMeans_Clustering_of_RFM_Scores%205.jpg)
 
-
+Key observations from the clustering results:
+1. Customers belonging to cluster 1 with low recency appears to buy more frequent. For those of clusters 2 and 3, recency and frequency are not correlated.
+2. Customers belonging to cluster 1 with low recency appears to spend more. For those of clusters 2 and 3, recency and monetary values are not correlated.
+3. For Customers belonging to cluster 1, the amount of money they spend appears to be linearly correlated with their frequency of purchasing. This is not the case for those belonging to clusters 2 and 3.
+4. For customers of Clusters 2 and 3, recency has no effect on their purchasing frequency and the amount spend.
+5. A specific marketing strategy to attract cluster 1 customers to buy more often should be put in place to increase revenues. For cluster 2 and 3 customer, a strategy to attract them to buy more frequently and spend more should be adopted.
 
