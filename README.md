@@ -35,7 +35,7 @@ This project uses an e-commerce sales data of a particular online retail store s
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_RFM_Segments%202.jpg)
 
 
-![]()
+![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/Distribution_of_Customers_in_Clusters%202.jpg)
 
 
 ![]()
