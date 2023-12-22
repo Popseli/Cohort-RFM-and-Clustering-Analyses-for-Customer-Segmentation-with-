@@ -50,6 +50,7 @@ Below show the number of clusters formed from RFM scores of RFM segments and the
 
 #### C. Clustering Analysis
 ![](https://github.com/Popseli/Customer-Segmentation-Using-Cohort-RFM-and-Clustering-Analyses/blob/main/KMeans_Clustering_of_RFM_Scores%205.jpg)
+
 Key observations from the clustering analysis:
 1. Customers belonging to cluster 1 with low recency appears to buy more frequent. For those of clusters 2 and 3, recency and frequency are not correlated.
 2. Customers belonging to cluster 1 with low recency appears to spend more. For those of clusters 2 and 3, recency and monetary values are not correlated.
